@@ -1,0 +1,138 @@
+\hypertarget{classcom_1_1chess_1_1logic_1_1_board}{}\section{com.\+chess.\+logic.\+Board Class Reference}
+\label{classcom_1_1chess_1_1logic_1_1_board}\index{com.chess.logic.Board@{com.chess.logic.Board}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_afb3986c175fd77c4116262aeb6c297cd}\label{classcom_1_1chess_1_1logic_1_1_board_afb3986c175fd77c4116262aeb6c297cd}} 
+{\bfseries Board} (int row\+Size, int col\+Size)
+\item 
+void \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_board_a343168b644f54fc8b82a49e90175f315}{move}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} black\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} white\+Player, Point2D src\+Coord, Point2D dest\+Coord, boolean checkmate)
+\item 
+void \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_board_ac87500f02f308a9068927e127ea253c0}{capture}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} black\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} white\+Player, Point2D dest\+Coord, Point2D src\+Coord, boolean checkmate)
+\item 
+void \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_board_aa8a12b0ffa00f9add4fd532c52504407}{capture\+Alchemist}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} black\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} white\+Player, Point2D dest\+Coord, Point2D src\+Coord, boolean checkmate)
+\item 
+void \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_board_acff95978992c19ce0face4179c808af3}{capture\+Archer}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} black\+Player, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} white\+Player, Point2D dest\+Coord, Point2D src\+Coord, boolean checkmate)
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a5d99699e0cdc822274f5b926f66c68cc}\label{classcom_1_1chess_1_1logic_1_1_board_a5d99699e0cdc822274f5b926f66c68cc}} 
+int {\bfseries get\+Row\+Size} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a7c050dfa24d4503cca3fea7b106e5388}\label{classcom_1_1chess_1_1logic_1_1_board_a7c050dfa24d4503cca3fea7b106e5388}} 
+void {\bfseries set\+Row\+Size} (int row\+Size)
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_abb3d513ac2a01029695d91e8a32bf9c9}\label{classcom_1_1chess_1_1logic_1_1_board_abb3d513ac2a01029695d91e8a32bf9c9}} 
+int {\bfseries get\+Col\+Size} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a52f69770b561d679d5319135b81f974a}\label{classcom_1_1chess_1_1logic_1_1_board_a52f69770b561d679d5319135b81f974a}} 
+void {\bfseries set\+Col\+Size} (int col\+Size)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a0ad3b40520ad37bdde416dbdb6552c25}\label{classcom_1_1chess_1_1logic_1_1_board_a0ad3b40520ad37bdde416dbdb6552c25}} 
+static \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries get\+Board} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a5c7b7fee74455848723b8cb32d0ec784}\label{classcom_1_1chess_1_1logic_1_1_board_a5c7b7fee74455848723b8cb32d0ec784}} 
+static void {\bfseries set\+Board} (\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a5469364de89e8380907401feec5601bc}\label{classcom_1_1chess_1_1logic_1_1_board_a5469364de89e8380907401feec5601bc}} 
+static \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries board}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Creates a 2-\/Dimensional array of pieces with a specified size, and initializes pieces at their starting coordinates. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_ac87500f02f308a9068927e127ea253c0}\label{classcom_1_1chess_1_1logic_1_1_board_ac87500f02f308a9068927e127ea253c0}} 
+\index{com.chess.logic.Board@{com.chess.logic.Board}!capture@{capture}}
+\index{capture@{capture}!com.chess.logic.Board@{com.chess.logic.Board}}
+\subsubsection{\texorpdfstring{capture()}{capture()}}
+{\footnotesize\ttfamily void com.\+chess.\+logic.\+Board.\+capture (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{black\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{white\+Player,  }\item[{Point2D}]{dest\+Coord,  }\item[{Point2D}]{src\+Coord,  }\item[{boolean}]{checkmate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+If the piece is of the opposing team, it is captures and out into the appropriate capture list. If the piece captured is the king, the current player wins. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em black\+Player} & \\
+\hline
+{\em white\+Player} & \\
+\hline
+{\em dest\+Coord} & \\
+\hline
+{\em src\+Coord} & \\
+\hline
+{\em checkmate} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_aa8a12b0ffa00f9add4fd532c52504407}\label{classcom_1_1chess_1_1logic_1_1_board_aa8a12b0ffa00f9add4fd532c52504407}} 
+\index{com.chess.logic.Board@{com.chess.logic.Board}!captureAlchemist@{captureAlchemist}}
+\index{captureAlchemist@{captureAlchemist}!com.chess.logic.Board@{com.chess.logic.Board}}
+\subsubsection{\texorpdfstring{captureAlchemist()}{captureAlchemist()}}
+{\footnotesize\ttfamily void com.\+chess.\+logic.\+Board.\+capture\+Alchemist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{black\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{white\+Player,  }\item[{Point2D}]{dest\+Coord,  }\item[{Point2D}]{src\+Coord,  }\item[{boolean}]{checkmate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+If the piece is of the opposing team, the current player gets to pick a piece to replace the captured piece with out of the opponent\textquotesingle{}s captured bag. If the piece captured is the king, the current player wins. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em black\+Player} & \\
+\hline
+{\em white\+Player} & \\
+\hline
+{\em dest\+Coord} & \\
+\hline
+{\em src\+Coord} & \\
+\hline
+{\em checkmate} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_acff95978992c19ce0face4179c808af3}\label{classcom_1_1chess_1_1logic_1_1_board_acff95978992c19ce0face4179c808af3}} 
+\index{com.chess.logic.Board@{com.chess.logic.Board}!captureArcher@{captureArcher}}
+\index{captureArcher@{captureArcher}!com.chess.logic.Board@{com.chess.logic.Board}}
+\subsubsection{\texorpdfstring{captureArcher()}{captureArcher()}}
+{\footnotesize\ttfamily void com.\+chess.\+logic.\+Board.\+capture\+Archer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{black\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{white\+Player,  }\item[{Point2D}]{dest\+Coord,  }\item[{Point2D}]{src\+Coord,  }\item[{boolean}]{checkmate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+The source piece (Archer) is stays in place, but the destination piece is captured. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em black\+Player} & \\
+\hline
+{\em white\+Player} & \\
+\hline
+{\em dest\+Coord} & \\
+\hline
+{\em src\+Coord} & \\
+\hline
+{\em checkmate} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_board_a343168b644f54fc8b82a49e90175f315}\label{classcom_1_1chess_1_1logic_1_1_board_a343168b644f54fc8b82a49e90175f315}} 
+\index{com.chess.logic.Board@{com.chess.logic.Board}!move@{move}}
+\index{move@{move}!com.chess.logic.Board@{com.chess.logic.Board}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void com.\+chess.\+logic.\+Board.\+move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{black\+Player,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{white\+Player,  }\item[{Point2D}]{src\+Coord,  }\item[{Point2D}]{dest\+Coord,  }\item[{boolean}]{checkmate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Given a source coordinate and destination coordinate, check if the move by the source piece to the destination is valid. If valid, the piece is moved. If the destination contains an opposing piece, it is captured. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em black\+Player} & \\
+\hline
+{\em white\+Player} & \\
+\hline
+{\em src\+Coord} & \\
+\hline
+{\em dest\+Coord} & \\
+\hline
+{\em checkmate} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess-\/game/src/main/java/com/chess/logic/Board.\+java\end{DoxyCompactItemize}

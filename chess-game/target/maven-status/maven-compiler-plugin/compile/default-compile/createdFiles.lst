@@ -1,0 +1,13 @@
+com/chess/logic/Player.class
+com/chess/pieces/Rook.class
+com/chess/pieces/Queen.class
+com/chess/pieces/King.class
+com/chess/pieces/Knight.class
+com/chess/pieces/Bishop.class
+com/chess/pieces/Archer.class
+com/chess/logic/Board.class
+com/chess/pieces/Alchemist.class
+com/chess/pieces/Piece.class
+com/chess/pieces/Pawn.class
+com/chess/logic/Game.class
+com/chess/logic/Move.class

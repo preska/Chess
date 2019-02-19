@@ -1,0 +1,216 @@
+\hypertarget{classcom_1_1chess_1_1logic_1_1_move}{}\section{com.\+chess.\+logic.\+Move Class Reference}
+\label{classcom_1_1chess_1_1logic_1_1_move}\index{com.chess.logic.Move@{com.chess.logic.Move}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a4cc801633898121029d4676632a51a8e}{generate\+Possible\+Moves\+Bishop}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_aa7f07801867eeecf641eca909307828d}{generate\+Possible\+Moves\+King}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_ae3edb4792a48a7e3e161f91dd752d1a4}{generate\+Possible\+Moves\+Knight}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_aebd7245c1458b2cba8ac2d2a2ee76fdb}{generate\+Possible\+Moves\+Pawn}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a5038da32a0d606713e548d7e2f7c0cf8}{generate\+Possible\+Moves\+Queen}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a646b1f2c156b808d1e5e052c37b94c8c}{generate\+Possible\+Moves\+Rook}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a852dabdab65f3590b98071b928475190}{generate\+Possible\+Moves\+Alchemist}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a17a27bd18e1307c67487fb53e57b10ae}{generate\+Possible\+Moves\+Archer}} (\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D curr\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\item 
+static List$<$ Point2D $>$ \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_move_a8ef601d6fd56dd999125d37807079008}{generate\+Possible\+Moves}} (\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}} p, \mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}} curr\+Player, List$<$ Point2D $>$ possible\+Moves, Point2D src\+Coord, \mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility functions to generate all possible moves of each piece. Each method return a List of Point2D objects with the possible destination coordinates. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a8ef601d6fd56dd999125d37807079008}\label{classcom_1_1chess_1_1logic_1_1_move_a8ef601d6fd56dd999125d37807079008}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMoves@{generatePossibleMoves}}
+\index{generatePossibleMoves@{generatePossibleMoves}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMoves()}{generatePossibleMoves()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{p,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{src\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for the correct piece type. 
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em src\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a852dabdab65f3590b98071b928475190}\label{classcom_1_1chess_1_1logic_1_1_move_a852dabdab65f3590b98071b928475190}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesAlchemist@{generatePossibleMovesAlchemist}}
+\index{generatePossibleMovesAlchemist@{generatePossibleMovesAlchemist}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesAlchemist()}{generatePossibleMovesAlchemist()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Alchemist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for an Alchemist piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a17a27bd18e1307c67487fb53e57b10ae}\label{classcom_1_1chess_1_1logic_1_1_move_a17a27bd18e1307c67487fb53e57b10ae}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesArcher@{generatePossibleMovesArcher}}
+\index{generatePossibleMovesArcher@{generatePossibleMovesArcher}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesArcher()}{generatePossibleMovesArcher()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Archer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for an Archer piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a4cc801633898121029d4676632a51a8e}\label{classcom_1_1chess_1_1logic_1_1_move_a4cc801633898121029d4676632a51a8e}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesBishop@{generatePossibleMovesBishop}}
+\index{generatePossibleMovesBishop@{generatePossibleMovesBishop}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesBishop()}{generatePossibleMovesBishop()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Bishop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a Bishop piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_aa7f07801867eeecf641eca909307828d}\label{classcom_1_1chess_1_1logic_1_1_move_aa7f07801867eeecf641eca909307828d}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesKing@{generatePossibleMovesKing}}
+\index{generatePossibleMovesKing@{generatePossibleMovesKing}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesKing()}{generatePossibleMovesKing()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+King (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a King piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_ae3edb4792a48a7e3e161f91dd752d1a4}\label{classcom_1_1chess_1_1logic_1_1_move_ae3edb4792a48a7e3e161f91dd752d1a4}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesKnight@{generatePossibleMovesKnight}}
+\index{generatePossibleMovesKnight@{generatePossibleMovesKnight}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesKnight()}{generatePossibleMovesKnight()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Knight (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a Knight piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_aebd7245c1458b2cba8ac2d2a2ee76fdb}\label{classcom_1_1chess_1_1logic_1_1_move_aebd7245c1458b2cba8ac2d2a2ee76fdb}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesPawn@{generatePossibleMovesPawn}}
+\index{generatePossibleMovesPawn@{generatePossibleMovesPawn}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesPawn()}{generatePossibleMovesPawn()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Pawn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a Pawn piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a5038da32a0d606713e548d7e2f7c0cf8}\label{classcom_1_1chess_1_1logic_1_1_move_a5038da32a0d606713e548d7e2f7c0cf8}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesQueen@{generatePossibleMovesQueen}}
+\index{generatePossibleMovesQueen@{generatePossibleMovesQueen}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesQueen()}{generatePossibleMovesQueen()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Queen (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a Queen piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1chess_1_1logic_1_1_move_a646b1f2c156b808d1e5e052c37b94c8c}\label{classcom_1_1chess_1_1logic_1_1_move_a646b1f2c156b808d1e5e052c37b94c8c}} 
+\index{com.chess.logic.Move@{com.chess.logic.Move}!generatePossibleMovesRook@{generatePossibleMovesRook}}
+\index{generatePossibleMovesRook@{generatePossibleMovesRook}!com.chess.logic.Move@{com.chess.logic.Move}}
+\subsubsection{\texorpdfstring{generatePossibleMovesRook()}{generatePossibleMovesRook()}}
+{\footnotesize\ttfamily static List$<$Point2D$>$ com.\+chess.\+logic.\+Move.\+generate\+Possible\+Moves\+Rook (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1chess_1_1logic_1_1_player}{Player}}}]{curr\+Player,  }\item[{List$<$ Point2D $>$}]{possible\+Moves,  }\item[{Point2D}]{curr\+Coord,  }\item[{\mbox{\hyperlink{classcom_1_1chess_1_1pieces_1_1_piece}{Piece}}}]{board\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Generates possible moves for a Rook piece. 
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & \\
+\hline
+{\em possible\+Moves} & \\
+\hline
+{\em curr\+Coord} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess-\/game/src/main/java/com/chess/logic/Move.\+java\end{DoxyCompactItemize}
